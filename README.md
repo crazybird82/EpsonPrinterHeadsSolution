@@ -8,9 +8,4 @@ This Script ask the printer server with snmp for the counter of the color pages 
 Also need a mysql DB or change the script ;) It use a FileLogger script and put every massage into a log-file.
 I use a apache2 on a Rasbian with stretch and php7, but it's works also with php 5.4 and a other Webserver.
 
-The default is to print every 2 days when isn't printed on this printer in color - for that is the counter of printed color pages.  
-
-
-
-
-
+The default is to print every 2 days a test page when isn't printed on this printer at those time - for that is the counter of printed color pages.  It needs a conjob which starts once per day.
